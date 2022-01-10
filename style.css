@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(9, 25, 39), rgba(18, 19, 65, 0.405)), url(kingdom.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 18px;
+    background-color: #22272c;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 58px;
+    background-color: #22272c;
+    text-align: center;
+}
+
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box {
+    font-size: 42px;
+
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.visite-botao{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    border-color: rgb(0, 217, 255);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
