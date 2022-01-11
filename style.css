@@ -1,24 +1,35 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-.header{
+main{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(9, 25, 39), rgba(18, 19, 65, 0.405)), url(kingdom.jpg);
+    background: url(kingdom.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
     position: relative;
+    height: 92vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 header {
     text-align: left;
     padding-left: 20px;
     padding-top: 18px;
-    background-color: #22272c;
+    background-color: #23232e;;
     color: white;
     height: 60px;
     width: 100%;
@@ -28,12 +39,43 @@ header h1 {
     font-size: 25px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 8vh;
+    font-size: 12px;
+    padding-bottom: 24px;
+}
+
+h1.logo {
+    padding-right: 72vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
 footer {
     position: absolute;
     width: 100%;
     height: 60px;
     line-height: 58px;
-    background-color: #22272c;
+    background-color: #23232e;
     text-align: center;
 }
 
@@ -49,7 +91,7 @@ footer {
 }
 
 .text-box {
-    font-size: 42px;
+    font-size: 30px;
 
 }
 
@@ -71,3 +113,4 @@ footer {
     position: relative;
     cursor: pointer;
 }
+
