@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.
-    googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>King Dinasty</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1 class="logo">King Dinasty</h1>
-            <ul class="nav-list">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Projetos</a></li>
-                <li><a href="/">Contato</a></li>
-            </ul>
-        </nav>        
-    </header>
-    <main>
-        <div class="text-box">
-            <h1>Atualmente em Manutenção.</h1>
-            <p>Novidades em breve...</p>
-            <a href="https://www.twitter.com/eusoushiro"  target="_blank" class="visite-botao">Visite-nos para saber mais</a>
+    <nav>
+        <label for="" class="toggle">
+            <i class="fa fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="socialtop">
+            <div class="top-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
         </div>
-    </main>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $('.toggle i').click(function () {
+            $('ul').toggleClass('show');
+        });
+    </script>
     <footer>
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> - King Dinasty<p>
+        
     </footer>
 </body>
 </html>
